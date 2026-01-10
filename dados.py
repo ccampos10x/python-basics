@@ -16,3 +16,8 @@ print (name)
 print (age)
 print (bodyTemperature)
 print (isLoggedIn)
+
+if age > 18:
+    print("Maior de idade")
+else:
+    print("Menor")
