@@ -4,3 +4,4 @@
 - Números
 - Operações simples com Números 
 - Listas
+- Dict
