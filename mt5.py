@@ -13,9 +13,10 @@ try:
         symbol = "USDJPY"
         rates = mt5.copy_rates_from_pos(symbol, mt5.TIMEFRAME_M2, 0, 1)
         print (symbol , rates)
-        time.sleep(0.0000000000003)  # pausa obrigatória
+        time.sleep(1)  # pausa obrigatória
 except KeyboardInterrupt:
     print("Encerrado pelo usuário")
 
 # Desconectar
 #mt5.shutdown()
+
